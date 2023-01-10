@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myFont;
+    src: url("fonts/SourceCodePro-Black.otf");
+    src: url("fonts/SourceCodePro-BlackIt.otf");
+    src: url("fonts/SourceCodePro-Bold.otf");
+    src: url("fonts/SourceCodePro-BoldIt.otf");
+    src: url("fonts/SourceCodePro-ExtraLight.otf");
+    src: url("fonts/SourceCodePro-ExtraLightIt.otf");
+    src: url("fonts/SourceCodePro-It.otf");
+    src: url("fonts/SourceCodePro-Light.otf");
+    src: url("fonts/SourceCodePro-LightIt.otf");
+    src: url("fonts/SourceCodePro-Medium.otf");
+    src: url("fonts/SourceCodePro-MediumIt.otf");
+    src: url("fonts/SourceCodePro-SemiboldIt.otf");
+    src: url("fonts/SourceCodePro-Semibold.otf");
+    src: url("fonts/SourceCodePro-Regular.otf");
+}
+body{
+    background-color: hsl(0, 4%, 69%);
+}
+.Text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "myFont";
+}
+.box{
+    width: 400px;
+    height: 250px;
+    background-color: rgba(148, 62, 148, 0.849);
+    font-family: "myFont";
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .searchBox{
+    width: 60%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 18px;
+    background-color: beige;
+    margin-top: 15px;
+    font-family: "myFont";
+}
+.box .searchbutton{
+    margin-top: 45px;
+    margin-left: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hide{
+    /* background-color: aliceblue; */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    /* display: none; */
+}
+h1.temp {
+    margin: 5px 0;
+}
+
+.city {
+    margin-top: 5px;
+
+}
