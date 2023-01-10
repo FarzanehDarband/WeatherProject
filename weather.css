@@ -93,11 +93,3 @@ body{
     transform: translate(-50%,-20%);
     /* display: none; */
 }
-h1.temp {
-    margin: 5px 0;
-}
-
-.city {
-    margin-top: 5px;
-
-}
